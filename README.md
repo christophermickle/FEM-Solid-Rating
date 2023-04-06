@@ -1,7 +1,7 @@
 # Interactive Rating Component
-  <a href="https://solidjs.com"><img src="https://www.solidjs.com/img/logo/with-wordmark/logo.svg" alt="Solid.js Logo" width="200" /></a>
-  <a href="https://astro.build"><img src="https://astro.build/assets/press/astro-logo-light.svg" alt="Astro Logo" width="200" /></a>
-  <a href="https://www.typescriptlang.org"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/TypeScript_Logo_%28Blue%29.svg" alt="TypeScript Logo" width="150" /></a>
+  <a href="https://solidjs.com"><img src="https://www.solidjs.com/img/logo/with-wordmark/logo.svg" alt="Solid.js Logo" width="200" /></a> 
+  <a href="https://astro.build"><img src="https://astro.build/assets/press/astro-logo-light.svg" alt="Astro Logo" width="200" /></a> 
+  <a href="https://www.typescriptlang.org"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/TypeScript_Logo_%28Blue%29.svg" alt="TypeScript Logo" width="150" /></a>                         <br><a href="https://tailwindcss.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/600px-Tailwind_CSS_Logo.svg.png?20211001194333" alt="TailwindCSS Logo" width="75"/></a>
 
 
 
@@ -84,13 +84,7 @@ import InteractiveRatingComponent from 'path/to/InteractiveRatingComponent';
 2. Add the component to your JSX/HTML:
 
 ```jsx
-<InteractiveRatingComponent maxRating={5} />
-```
-
-3. Customize the component by passing additional props:
-
-```jsx
-<InteractiveRatingComponent maxRating={5} color="#f1c40f" size="large" />
+<InteractiveRatingComponent  />
 ```
 
 ## Contributing
