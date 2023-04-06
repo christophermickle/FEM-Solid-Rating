@@ -1,55 +1,28 @@
-# Astro Starter Kit: Basics
+# Interactive Rating Component
 
-```
-npm create astro@latest -- --template basics
-```
+![Solid.js logo](https://solidjs.com/images/logo_dark.svg)
+![Astro logo](https://astro.build/logo-light.svg)
+![TypeScript logo](https://www.typescriptlang.org/assets/images/icons/apple-touch-icon-144x144.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Welcome to my solution for the Interactive Rating Component challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-t0m8PIyY8). This project was built using the Solid.js framework with Astro, and TypeScript. 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Overview
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+This project is an interactive rating component that allows users to rate an item by clicking on a star. The selected star and all stars before it will be filled with color. The component also displays the current rating in real-time.
 
+## Demo
 
-## 🚀 Project Structure
+To see the component in action, check out the [demo](https://yourdemo.com).
 
-Inside of your Astro project, you'll see the following folders and files:
+## Installation
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+1. Clone this repository.
+2. Install dependencies by running `npm install`.
+3. Run the development server using `npm run dev`.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Built with
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- [Solid.js](https://solidjs.com/) - A reactive JavaScript library for building user interfaces.
+- [Astro](https://astro.build/) - A modern static site builder that generates fast, lightweight, and modern web pages.
+- [TypeScript](https://www.typescriptlang.org/) - A statically typed superset of JavaScript that compiles to plain JavaScript.
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
