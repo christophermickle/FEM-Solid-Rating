@@ -19,7 +19,7 @@ const App: Component = (props) => {
             />
           }
         >
-          <p>The rating you entered is {rating()}</p>
+          <p class="text-white">The rating you entered is {rating()}</p>
         </Show>
       </Card>
     </div>
