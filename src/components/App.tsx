@@ -1,9 +1,14 @@
-import { Component, createSignal, Show } from "solid-js";
+import { createSignal, Show } from "solid-js";
 import Card from "./Card";
 import Rating from "./Rating";
 import Completion from "./Completion";
 
-const App: Component = (props) => {
+interface Props {
+  rating: number;
+  formComplete: (value: boolean) => void;
+}
+
+const App = (props: Props) => {
   const [rating, setRating] = createSignal(0);
   const [formComplete, setFormComplete] = createSignal(false);
   console.log(rating());
@@ -20,7 +25,7 @@ const App: Component = (props) => {
             />
           }
         >
-          <Completion rating={rating}/>
+          <Completion rating={rating} />
         </Show>
       </Card>
     </div>
