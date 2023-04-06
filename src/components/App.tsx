@@ -1,6 +1,7 @@
 import { Component, createSignal, Show } from "solid-js";
 import Card from "./Card";
 import Rating from "./Rating";
+import Completion from "./Completion";
 
 const App: Component = (props) => {
   const [rating, setRating] = createSignal(0);
@@ -10,7 +11,7 @@ const App: Component = (props) => {
     <div class="min-w-full min-h-screen grid justify-center">
       <Card>
         <Show
-          when={formComplete()}
+          when={formComplete() && rating() > 0}
           fallback={
             <Rating
               rating={rating}
@@ -19,7 +20,7 @@ const App: Component = (props) => {
             />
           }
         >
-          <p class="text-white">The rating you entered is {rating()}</p>
+          <Completion rating={rating}/>
         </Show>
       </Card>
     </div>
